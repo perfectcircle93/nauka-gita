@@ -1,0 +1,10 @@
+1. autoprefixer-cli 
+Ma czytać ma czytać z pliku style.css i zapisywać wynik do pliku style.prefixed.css:
+
+node_modules/.bin/autoprefixer-cli -o styleprefixed.css style.css
+
+2. html-validate 
+Ma wyświetlać listę błędów we wszystkich plikach .html:
+
+node_modules/.bin/html-validate *html
+
